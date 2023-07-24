@@ -103,8 +103,9 @@ namespace ConAppBubbleSort
             bool check = checkSorted(arr1);
             if (check) { Console.WriteLine("Array is Sorted"); }
             else { Console.WriteLine("unsorted"); }
-            
+            Console.WriteLine("_____________________________________________________________________________");
             Console.WriteLine($"ArraySize {arr1.Length} Time TAken by bubblesort {stopwatch.Elapsed.TotalMilliseconds} milliseconds");
+            Console.WriteLine("_____________________________________________________________________________");
 
             Console.WriteLine("array without bubble sort");
             Print(arr2);
@@ -120,8 +121,9 @@ namespace ConAppBubbleSort
             else { Console.WriteLine("unsorted"); }
             Console.WriteLine(  "\n\n");
             
-
+            Console.WriteLine("_____________________________________________________________________________");
             Console.WriteLine($"ArraySize {arr2.Length} Time TAken  by insertion Sort {stopwatch.Elapsed.TotalMilliseconds} milliseconds");
+            Console.WriteLine("_____________________________________________________________________________");
 
 
             Console.ReadLine();
